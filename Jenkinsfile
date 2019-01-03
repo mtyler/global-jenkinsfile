@@ -6,5 +6,6 @@ library identifier: 'global-jenkinsfile@master', retriever: modernSCM(
 // Call groovy method containing shared pipeline.
 // Argument should be the name of the cookbook
 node {
+  //this is a reference to the globalJenkinsfile.groovy
   globalJenkinsfile 'global-jenkinsfile'
 }
